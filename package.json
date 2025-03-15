@@ -1,0 +1,27 @@
+{
+  "name": "autonomous-v2v-communication-system",
+  "version": "1.0.0",
+  "description": "A V2V communication system using ESP32, GPS, LiDAR, ultrasonic sensors, and NRF modules, integrated with AWS IoT for real-time data exchange. The Node.js backend with MongoDB and Firebase enables live telemetry, WebSockets, MQTT-based messaging, and collision alerts for autonomous navigation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "anjalisharma-r <anjalisharmar04@gmail.com>",
+  "license": "ISC",
+  "repository": "git+https://github.com/anjalisharma-r/Autonomous-V2V-Communication-system.git",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.2.0",
+    "mongoose": "^8.12.1",
+    "mqtt": "^5.10.4",
+    "ws": "^8.18.1"
+  },
+  "bugs": {
+    "url": "https://github.com/anjalisharma-r/Autonomous-V2V-Communication-system/issues"
+  },
+  "homepage": "https://github.com/anjalisharma-r/Autonomous-V2V-Communication-system#readme"
+}
